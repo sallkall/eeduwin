@@ -1,8 +1,8 @@
 <template>
 	<div class="course_content clearfix"
 		:id="elemId">
-		<p class="course_title">{{courTitle}}</p>  
-		<p class="course_desc">{{courDesc}}</p> 
+		<p class="course_title">{{courTitle}}</p>
+		<p class="course_desc">{{courDesc}}</p>
 		<div class="course_filter">
 			<div class="course_filter_btn">
 				<span>{{$t('course.filter')}}</span>
@@ -122,7 +122,7 @@
                 });
                 return list;
             },
-			
+
             selectFilter(type) {
             	let index = this.filterNoList.indexOf(type.typeNo);
                 if (index == -1) {
@@ -141,7 +141,7 @@
                 this.filterNoList = filterNoList;
                 this.initData();
             },
-			
+
             toCouseDetail(course) {
                 this.$router.push({
                     path: '/detail',
@@ -317,13 +317,13 @@
 				margin-right: 30px;
 				margin-bottom: 20px;
 				width: 220px;
-				height: 190px;
+				height: 202px;
 				border-radius: 4px;
 				cursor: pointer;
-				transition: all .1s ease-in-out;
+        transition: box-shadow .3s;
 				&:hover {
-					box-shadow: -2px -2px 5px #ccc;
-					.course_item_top {
+          box-shadow: 0 0 25px rgba(33,33,33,.2);
+          .course_item_top {
 						filter: opacity(1);
 					}
 				}
@@ -335,6 +335,7 @@
 					background: #9b856e;
 					border-radius: 4px 4px 0 0;
 					filter: opacity(0.5);
+          -webkit-filter: grayscale(40%);
 					&.Math {
 						background: linear-gradient(228deg, #E5A641, #FF4141);
 					}
@@ -355,7 +356,7 @@
 					}
 					&.English {
 						background: linear-gradient(228deg, #FD8B37, #E8DB3A);
-					} 
+					}
 					.course_item_title {
 						display: -webkit-box;
 						margin-bottom: 20px;
