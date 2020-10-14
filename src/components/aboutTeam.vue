@@ -8,7 +8,7 @@
 
         <div class="team_tabs">
             <span class="team_tab_slide"></span>
-            <span v-for="(tab, tabIdx) in tabList" class="team_tab" 
+            <span v-for="(tab, tabIdx) in tabList" class="team_tab"
                 :class="activeTabIdx === tabIdx ? 'active' : ''"
                 @click="selectTab(tabIdx)">{{tab}}</span>
         </div>
@@ -19,7 +19,7 @@
                 <img :src="require(`../assets/images/${list.img}`)" />
                 <p class="team_li_name">{{list.name}}</p>
                 <p class="team_li_title">{{list.title}}</p>
-                <p class="team_li_other" 
+                <p class="team_li_other"
                     v-for="(other, oidx) in list.other"
                     :key="oidx">{{other}}</p>
             </li>
@@ -29,7 +29,7 @@
         <p class="team_join_desc">{{$t('aboutTeam.joinDesc')}}</p>
         <div class="team_job clearfix">
             <div class="left clearfix" :style="{top: jobTitleTop+'px'}">
-                <p class="team_job_title" 
+                <p class="team_job_title"
                     :class="jobTitleArrowIdx === posIdx ? 'active' : ''"
                     v-for="(pos, posIdx) in positionTitleList"
                     @click="toPosition(`job${posIdx+1}`, posIdx)" >
@@ -38,9 +38,9 @@
                 <span class="team_job_arrow" :style="{top: (jobTitleArrowIdx * 30 + 30) + 'px'}"></span>
             </div>
             <div class="right clearfix">
-                <div class="job_desc clearfix" 
+                <div class="job_desc clearfix"
                     v-for="(position, posIdx) in positionDescList"
-                    :class="jobTitleArrowIdx === posIdx ? 'active' : ''" 
+                    :class="jobTitleArrowIdx === posIdx ? 'active' : ''"
                     :id="`job${posIdx + 1}`">
                     <p>{{(posIdx + 1) + '. ' + $t('aboutTeam.jobDescription')}}:</p>
                     <span>{{position}}</span>
@@ -210,7 +210,7 @@
         }
         .team_header_desc {
             margin: 0 auto;
-            width: 490px;   
+            width: 490px;
             line-height: 22px;
             font-size: 12px;
             text-align: center;
@@ -317,7 +317,7 @@
         padding-bottom: 100px;
         width: 100%;
         background: url('../assets/images/about_bg.png') no-repeat left bottom;
-        background-size: 100% 400px;
+        background-size: 100%;
         color: @defaultColor;
         .left {
             position: absolute;
@@ -352,7 +352,7 @@
                     display: block;
                     position: absolute;
                     right: 0;
-                    top: -1px;                    
+                    top: -1px;
                     content: '';
                     width: 4px;
                     height: 4px;
@@ -363,7 +363,7 @@
         }
         .right {
             margin-left: 50%;
-            width: 390px;
+            width: 420px;
             .job_desc {
                 width: 100%;
                 color: #959191;
