@@ -68,7 +68,7 @@ export default {
         ourMissionDesc: '创赢本着不仅与时俱进，且具有前瞻性的教育方式来培养年轻一代，以“激发年轻学者的创造力，创新和创业精神”为其使命，以培养各行各业未来领袖为已任。',
         ourAim: '我们的目标',
         ourAimDesc: '以“三创”（即创造、创新、创业）为其教育之本，创赢将为K12华人学生群体提供覆盖科学、科技、工程、艺术、数学（“STEAM”）及金融商科的多样课程。此外，创赢还致力于为全球的学生——尤其是为在中国、加拿大或美国学习的华裔学生——提供准确、尽责、一流的留学指导服务。',
-        
+
         aDiverseTeam: '多元化团队',
         members: '我们的成员来自欧洲、澳大利亚、中国、加拿大和美国。',
         seasonedEducators: '经验丰富的导师',
@@ -80,11 +80,11 @@ export default {
         devotedParents: '尽心竭力的家长',
         devotedParentsDesc: 'With successful experiences in raising their children in the States',
         whoCommon: '我们的共通点：把百分之百的热情投入到年轻一代创赢人的教育中',
-        
+
         whyAdvocates: '我们身处美国、加拿大及英国教育系统（小学至高中三年级以及大学）的前沿',
         whyPrograms: '我们在每日专业的工作中时刻紧跟全球教育发展趋势',
         whyServices: '我们有能力及资源为学生提供独一无二的课外背景提升与拓展',
-        
+
         whatProfessional: '来自全球且背景各异的教育从事者和训练有素的专业人员',
         whatUnderstanding: '对美国、加拿大、英国以及全球教育系统的第一手理解',
         whatParticipated: '从导师、父母到学生的多角度教育心得以及反馈',
@@ -123,7 +123,7 @@ export default {
 
         foundationCourses: '基础课程',
         foundationCoursesDesc: '开发广泛知识体系和综合技能的基础课程',
-        capstoneCourses: '顶峰课程',
+        capstoneCourses: '开拓课程',
         capstoneCoursesDesc: '由在读本科生、研究生、博士生设计并推动的飞跃课程',
         enrichmentCourses: '飞跃课程',
         enrichmentCoursesDesc: '由现任大学教授和行业专家教授和主导的大师课程',
@@ -233,7 +233,7 @@ export default {
         overview: '服务介绍',
         overviewDesc: '我们汇聚了来自美国，加拿大，英国和中国的经验丰富的教育从业者和专业人士，热衷于为学生提供准确，严谨和一流的入学指导。我们将根据学生自己的优势，背景和兴趣来设计指导方案，旨在帮助学生获得全世界顶尖大学的录取通知。为每位申请人提供最合适的建议，计划和策略是我们引以为豪的宗旨，也是我们的首要任务。我们的目标是为年轻学生的生活带来创新和改变，以帮助他们实现梦想和潜力。',
         fullServicesDesc: '提供全方位大学申请，咨询，和规划服务的精品教育机构',
-        
+
         ourGoals: '我们的目标',
         goalsProvide: '在申请过程中为申请人提供高质量和可靠的指导和咨询',
         goalsDevelop: '在进入顶尖大学之前，培养学生的潜能，求知欲和学习热情',
@@ -292,7 +292,7 @@ export default {
         ourExpertise: '我们的专长',
         successRate: '成功率',
         topUSOffers: '美国顶级大学录取金榜',
-        
+
         andAnyMore: '还有更多',
 
         harvardChemistry: '哈佛大学 - 化学系',
