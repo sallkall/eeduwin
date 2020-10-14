@@ -17,7 +17,7 @@
                     </li>
                 </ul>
                 <ul class="pbl_courses clearfix">
-                    <li class="pbl_course clearfix" 
+                    <li class="pbl_course clearfix"
                         v-for="type in pblCourseTypeList"
                         :key="type.id">
                         <p class="pbl_course_type">{{type.name}}</p>
@@ -28,9 +28,9 @@
             </div>
         </div>
 
-        <CourseList :level="'0'" :typeList="typeList" :courTitle="'Foundation Courses'" :elemId="'foundation'" />
-        <CourseList :level="'1'" :typeList="typeList" :courTitle="'Capstone Courses'" :elemId="'capstone'" />
-        <CourseList :level="'2'" :typeList="typeList" :courTitle="'Enrichment Courses'" :elemId="'enrichment'" />
+        <CourseList :level="'0'" :typeList="typeList" :courTitle="$t('course.foundationCourses')" :elemId="'foundation'" />
+        <CourseList :level="'1'" :typeList="typeList" :courTitle="$t('course.capstoneCourses')" :elemId="'capstone'" />
+        <CourseList :level="'2'" :typeList="typeList" :courTitle="$t('course.enrichmentCourses')" :elemId="'enrichment'" />
 
         <CommonFooter />
     </div>
@@ -79,22 +79,22 @@
             pblCharaList() {
                 return [
                     {
-                        img: 'student', 
+                        img: 'student',
                         text: this.$t('course.student'),
                     }, {
-                        img: 'doing', 
+                        img: 'doing',
                         text: this.$t('course.doing'),
                     }, {
-                        img: 'inquriy', 
+                        img: 'inquriy',
                         text: this.$t('course.inquiry'),
                     }, {
-                        img: 'creative', 
+                        img: 'creative',
                         text: this.$t('course.creative'),
                     }, {
-                        img: 'realworld', 
+                        img: 'realworld',
                         text: this.$t('course.realworld'),
                     }, {
-                        img: 'team', 
+                        img: 'team',
                         text: this.$t('course.team'),
                     }, {
                         img: 'public',
@@ -229,7 +229,7 @@
                             &.student, &.inquriy, &.team, &.application {
                                 margin-top: 6px;
                                 width: 24px;
-                                height: 38px; 
+                                height: 38px;
                             }
                             &.doing, &.competition {
                                 margin-top: 8px;
@@ -251,7 +251,7 @@
                             }
                             &.public {
                                 width: 36px;
-                            } 
+                            }
                             &.application {
                                 width: 30px;
                             }
@@ -325,6 +325,6 @@
             }
         }
     }
-    
+
 </style>
 // rgba(132, 130, 130, .7)
