@@ -29,9 +29,9 @@
                     <a-input
                         v-decorator="[
                             'courseNmCn',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请输入课程名称（中文）' }],
-                                initialValue: editRow.courseNmCn 
+                                initialValue: editRow.courseNmCn
                             },
                         ]"
                         />
@@ -40,9 +40,9 @@
                     <a-input
                         v-decorator="[
                             'courseNmEn',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请输入课程名称（英文）' }],
-                                initialValue: editRow.courseNmEn 
+                                initialValue: editRow.courseNmEn
                             },
                         ]"
                         />
@@ -51,9 +51,9 @@
                     <a-select
                         v-decorator="[
                             'courseLevel',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请选择课程级别' }],
-                                initialValue: editRow.courseLevel 
+                                initialValue: editRow.courseLevel
                             },
                         ]"
                         >
@@ -67,9 +67,9 @@
                     <a-select
                         v-decorator="[
                             'typeNo',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请选择课程类型' }],
-                                initialValue: editRow.typeNo 
+                                initialValue: editRow.typeNo
                             },
                         ]"
                         >
@@ -83,9 +83,9 @@
                     <a-select
                         v-decorator="[
                             'courseOwner',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请选择导师' }],
-                                initialValue: editRow.courseOwner 
+                                initialValue: editRow.courseOwner
                             },
                         ]"
                         >
@@ -99,9 +99,9 @@
                     <a-select
                         v-decorator="[
                             'courseSt',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请选择课程状态' }],
-                                initialValue: editRow.courseSt 
+                                initialValue: editRow.courseSt
                             },
                         ]"
                         >
@@ -117,9 +117,9 @@
                     <a-select
                         v-decorator="[
                             'feeSt',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请选择收费状态' }],
-                                initialValue: editRow.feeSt 
+                                initialValue: editRow.feeSt
                             },
                         ]"
                         >
@@ -135,9 +135,9 @@
                     <a-input
                         v-decorator="[
                             'coursePrice',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请输入课程价格' }],
-                                initialValue: editRow.coursePrice 
+                                initialValue: editRow.coursePrice
                             },
                         ]"
                         />
@@ -146,9 +146,9 @@
                     <a-input
                         v-decorator="[
                             'teamSizeMin',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请输入小组最小人数' }],
-                                initialValue: editRow.teamSizeMin 
+                                initialValue: editRow.teamSizeMin
                             },
                         ]"
                         />
@@ -157,9 +157,9 @@
                     <a-input
                         v-decorator="[
                             'teamSizeMax',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请输入小组最大人数' }],
-                                initialValue: editRow.teamSizeMax 
+                                initialValue: editRow.teamSizeMax
                             },
                         ]"
                         />
@@ -168,9 +168,9 @@
                     <a-input
                         v-decorator="[
                             'targetAgeGroupMin',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请输入适合最小人群' }],
-                                initialValue: editRow.targetAgeGroupMin 
+                                initialValue: editRow.targetAgeGroupMin
                             },
                         ]"
                         />
@@ -179,9 +179,9 @@
                     <a-input
                         v-decorator="[
                             'targetAgeGroupMax',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请输入适合最大人群' }],
-                                initialValue: editRow.targetAgeGroupMax 
+                                initialValue: editRow.targetAgeGroupMax
                             },
                         ]"
                         />
@@ -190,9 +190,9 @@
                     <a-input
                         v-decorator="[
                             'courseCapacityMin',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请输入课程规模最小人数' }],
-                                initialValue: editRow.courseCapacityMin 
+                                initialValue: editRow.courseCapacityMin
                             },
                         ]"
                         />
@@ -201,9 +201,9 @@
                     <a-input
                         v-decorator="[
                             'courseCapacityMax',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请输入课程规模最大人数' }],
-                                initialValue: editRow.courseCapacityMax 
+                                initialValue: editRow.courseCapacityMax
                             },
                         ]"
                         />
@@ -212,9 +212,9 @@
                     <a-input
                         v-decorator="[
                             'courseDurationMin',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请输入课程时长' }],
-                                initialValue: editRow.courseDurationMin 
+                                initialValue: editRow.courseDurationMin
                             },
                         ]"
                         />
@@ -223,9 +223,9 @@
                     <a-input
                         v-decorator="[
                             'courseDurationMax',
-                            { 
+                            {
                                 rules: [{ required: true, message: '请输入课程时长' }],
-                                initialValue: editRow.courseDurationMax 
+                                initialValue: editRow.courseDurationMax
                             },
                         ]"
                         />
@@ -236,7 +236,7 @@
                     </a-button>
                 </a-form-item>
             </a-form>
-        </a-modal> 
+        </a-modal>
     </div>
 </template>
 <script>
@@ -326,16 +326,16 @@
                 typeList: [],
                 teacherList: [],
                 courseLevelList: [
-                    {label: '基础', value: 0},
-                    {label: '飞跃', value: 1},
-                    {label: '大师', value: 2},
+                    {label: '基础课程', value: 0},
+                    {label: '开拓课程', value: 1},
+                    {label: '飞跃课程', value: 2},
                 ],
 
                 editRow: {},
                 tableHeader: columns,
 
                 addVisible: false,
-                
+
             };
         },
         created() {
