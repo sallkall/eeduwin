@@ -124,9 +124,9 @@ export default {
         foundationCourses: '基础课程',
         foundationCoursesDesc: '开发广泛知识体系和综合技能的基础课程',
         capstoneCourses: '开拓课程',
-        capstoneCoursesDesc: '由在读本科生、研究生、博士生设计并推动的飞跃课程',
+        capstoneCoursesDesc: '多方面运用综合理论及知识体系来解决现实世界潜在问题的开拓课程',
         enrichmentCourses: '飞跃课程',
-        enrichmentCoursesDesc: '由现任大学教授和行业专家教授和主导的大师课程',
+        enrichmentCoursesDesc: '具有现任大学教授与行业专家带来独特专业视角的飞跃课程',
         seeCourses: '查看课程',
 
         math: '数学',

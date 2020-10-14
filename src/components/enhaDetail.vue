@@ -16,10 +16,10 @@
 	        <p v-if="pageType == 0" class="detail_desc">[{{$t('enhaDetail.theme')}}]: {{zh ? detail.activityThemeZh : detail.activityThemeEn}}</p>
 
 	        <div class="detail_dates">
-	        	<div class="detail_date left">
+	        	<!-- <div class="detail_date left">
 	        		<span>{{$t('enhaDetail.submissionDeadline')}}:</span>
 	        		<b>{{zh ? detail.submitEndTsCn : detail.submitEndTsEn}}</b>
-	        	</div>
+	        	</div> -->
 	        	<div class="detail_date right">
 	        		<span>{{$t('enhaDetail.participants')}}:</span>
 	        		<b>{{zh ? detail.attenderGradleZh : detail.attenderGradleEn}}</b>

@@ -30,12 +30,12 @@
             <ul class="current_list clearfix">
                 <li class="current_li current_li_header">
                     <span class="left">{{$t('enha.list')}}</span>
-                    <span>{{$t('enha.signUpDeadline')}}</span>
+                    <!-- <span>{{$t('enha.signUpDeadline')}}</span> -->
                 </li>
                 <li class="current_li" v-for="(item) in list"
                     @click="toEnhaDetail(item.activityNo)">
                     <span class="left">{{zh ? item.activityNmZh : item.activityNmEn}}</span>
-                    <span>{{zh ? item.submitEndTsCn : item.submitEndTsEn}}</span>
+                    <!-- <span>{{zh ? item.submitEndTsCn : item.submitEndTsEn}}</span> -->
                 </li>
             </ul>
         </div>

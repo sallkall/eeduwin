@@ -125,9 +125,9 @@ export default  {
         foundationCourses: 'Foundation Courses',
         foundationCoursesDesc: 'fundamental courses to develop broad knowledge base and comprehensive skill set ',
         capstoneCourses: 'Capstone Courses',
-        capstoneCoursesDesc: 'enlightening courses designed and driven by current undergraduate, graduate and phD students',
+        capstoneCoursesDesc: 'multifaceted courses to provide exercises of integrating theory and knowledge into potential solutions to real-world problems',
         enrichmentCourses: 'Enrichment Courses',
-        enrichmentCoursesDesc: 'advanced courses taught and led by current university professors and industry experts',
+        enrichmentCoursesDesc: 'enlightening courses taught and led by current university professors and industry experts to bring exceptional learning experience and unique perspectives',
         seeCourses: 'SEE COURSES',
 
         math: 'Math',
@@ -157,9 +157,9 @@ export default  {
         enhaOpportunities: 'Enhancement Opportunities',
         enhaOpportunitiesDesc: 'eEduWin-led competitions, volunteer and extra-curricular activities for multifaceted student experience',
         eEduWinCompetitions: 'eEduWin Competitions',
-        eEduWinCompetitionsDesc: 'Fun contests to recognize and reward students with outstanding capabilities',
+        eEduWinCompetitionsDesc: 'Meaningful contests to recognize and reward students with outstanding capabilities',
         eEduWinVolunteers: 'eEduWin Volunteers',
-        eEduWinVolunteersDesc: 'Meaningful community services to make a difference and create impact',
+        eEduWinVolunteersDesc: 'Engaging community services to make a difference and create impact',
 
         ourCompetitions: 'Our Competitions',
         ourVolunteers: 'Our Volunteers',
