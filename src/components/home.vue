@@ -11,7 +11,7 @@
                     <p class="home_slogon">
                         {{$t('home.slogan')}}
                     </p>
-                    <p class="middle_btn" @click="toCourse">{{$t('home.seeCourse')}}</p> 
+                    <p class="middle_btn" @click="toCourse">{{$t('home.seeCourse')}}</p>
                 </div>
                 <!-- <div class="home_right" @click="showContactModel">Contact Us ></div> -->
             </div>
@@ -19,7 +19,7 @@
 
         <div v-show="newsList.length" class="home_news_wrap clearfix">
             <span class="swiper_title">{{$t('home.eEduWinNews')}}</span>
-            <swiper class="news_swiper" ref="mySwiper" :options="newsSwiperOptions"> 
+            <swiper class="news_swiper" ref="mySwiper" :options="newsSwiperOptions">
                 <swiper-slide class="slide"  v-for="(news, newsIdx) in newsList" :key="newsIdx">
                     <span v-show="!news.newsPic" class="img_empty" @click="showNewModel(newsIdx)"></span>
                     <img v-show="news.newsPic" @click="showNewModel(newsIdx)" :src="news.newsPic">
@@ -143,7 +143,7 @@
                 let params = type == 1 ? {} : {endTs: this.notice.endTs};
                 if (type == 2 && !this.notice.hasPre) {
                     return;
-                } 
+                }
                 if (type == 3 && !this.notice.hasNext) {
                     return;
                 }
@@ -165,7 +165,7 @@
             },
             showContactModel() {
                 this.$store.dispatch('handleContactModel', true);
-            }, 
+            },
             showRegisterModel() {
                 this.$store.dispatch('handleRegisterModel', true);
             },
@@ -185,7 +185,7 @@
         },
         components: {
             CommonHeader, CommonFooter,
-            New, 
+            New,
         },
     }
 </script>
@@ -241,7 +241,7 @@
         background-size: cover;
         flex-shrink: 0;
         .home_top_wrap {
-            margin: 30px auto 0; 
+            margin: 30px auto 0;
             width: 800px;
             height: 500px;
             .home_left {
@@ -287,6 +287,13 @@
                     border-radius: 20px;
                     text-align: center;
                     cursor: pointer;
+                    transition-duration: 0.3s;
+                    transition-property: box-shadow;
+                    -webkit-tap-highlight-color: transparent;
+                    transform: translateZ(0);
+                }
+                .middle_btn:hover {
+                    box-shadow: inset 0 0 0 1px #666, 0 0 1px transparent;
                 }
             }
         }
@@ -383,7 +390,7 @@
     }
     .our_services {
         padding: 30px 85px;
-        margin: 100px auto; 
+        margin: 100px auto;
         width: 990px;
         height: 390px;
         background: #fff;
@@ -427,7 +434,7 @@
             width: 330px;
             height: 220px;
         }
-    }  
+    }
     .latest_wrap {
         width: 100%;
         height: 590px;
