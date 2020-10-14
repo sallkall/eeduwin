@@ -6,7 +6,7 @@
                 <div class="our_stories clearfix">
                     <p class="stories_title">{{$t('stories.ourStories')}}</p>
                     <p class="stories_desc">{{$t('stories.ourStoriesDesc1')}}<p>
-                    <p class="stories_desc">{{$t('stories.ourStoriesDesc2')}}</p> 
+                    <p class="stories_desc">{{$t('stories.ourStoriesDesc2')}}</p>
                 </div>
                 <div class="stories_btns">
                     <span class="stories_btn" @click="toPosition('cases')">{{$t('stories.topOffersCaps')}}<i></i></span>
@@ -14,7 +14,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="expertise">
            {{$t('stories.ourExpertise')}} : <span><b>100%</b> {{$t('stories.successRate')}}  <b>100+</b> {{$t('stories.topUSOffers')}}</span>
         </div>
@@ -136,7 +136,7 @@
     .stories_top {
         width: 100%;
         height: 540px;
-        background: url('../assets/images/stories_back.png') no-repeat left bottom;
+        background: url('../assets/images/stories_back.png') no-repeat left center;
         background-size: cover;
         .stories_top_wrap {
             margin: 0 auto;
@@ -256,7 +256,7 @@
                     left: 0;
                     top: 10px;
                     content: '';
-                    width: 2px; 
+                    width: 2px;
                     height: 40px;
                     background-color: @defaultColor;
                 }
