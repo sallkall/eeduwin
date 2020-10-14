@@ -335,6 +335,7 @@
 					background: #9b856e;
 					border-radius: 4px 4px 0 0;
 					filter: opacity(0.5);
+          -webkit-filter: grayscale(40%);
 					&.Math {
 						background: linear-gradient(228deg, #E5A641, #FF4141);
 					}
