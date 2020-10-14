@@ -259,7 +259,7 @@
                     float: left;
                     padding-left: 20px;
                     width: 100%;
-                    height: 50px;
+                    height: 40px;
                     line-height: 50px;
                     font-size: 24px;
                     color: #374784;
@@ -282,7 +282,7 @@
                     height: 40px;
                     line-height: 40px;
                     font-weight: bold;
-                    font-size: 16px;
+                    font-size: 14px;
                     background: #F8E8A0;
                     border-radius: 20px;
                     text-align: center;

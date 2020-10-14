@@ -296,7 +296,7 @@ export default {
         andAnyMore: '还有更多',
 
         harvardChemistry: '哈佛大学 - 化学系',
-        harvardChemistryAcademic: '0门Ap课程，9位美国的大学课程',
+        harvardChemistryAcademic: '0门AP课程，9位美国的大学课程',
         harvardChemistryActivities: '队长，演讲组，数学组，社区服务创立者',
         harvardChemistryAchievements: '参与了麻省理工学院极其有名的RSI暑期夏令营；两次在大学实验室暑期研究经历；西门子和英特尔科技比赛半决赛选手；所获奖项包括：数学、写作、工程，州级及国家级演讲。',
 

@@ -24,9 +24,9 @@
             <b @click="setLang('zh')">中文</b>
             <b class="line">/</b>
             <b @click="setLang('en')">EN</b>
-            <!-- <img class="icon_lang" src="../../assets/images/icon_lang_zh.png" 
+            <!-- <img class="icon_lang" src="../../assets/images/icon_lang_zh.png"
                  />
-            <img class="icon_lang" src="../../assets/images/icon_lang_en.png" 
+            <img class="icon_lang" src="../../assets/images/icon_lang_en.png"
                 /> -->
             <template v-if="userName">
                 <span class="username" @click="toAccount">{{$t("header.welcome")}} {{userName}}</span>
@@ -70,7 +70,7 @@
             blue: Boolean,
             top: {
                 type: Boolean,
-                default: true,   
+                default: true,
             }
         },
         data() {
@@ -102,9 +102,9 @@
                     case 'contact':
                         this.showContactModel();
                         break;
-                    case 'about': 
+                    case 'about':
                         break;
-                    default: 
+                    default:
                         this.$router.replace({
                             path: `/${path}`
                         });
@@ -117,7 +117,7 @@
             },
             handleContactModel(flag) {
                 this.showContactFlag = flag;
-            }, 
+            },
             handleLoginModel(flag) {
                 this.$store.dispatch('handleLoginModel', true);
             },
@@ -245,6 +245,7 @@
                 font-weight: bold;
             }
         }
+
         .nav_wrap {
             height: 30px;
             line-height: 30px;
@@ -296,6 +297,9 @@
                     display: block;
                 }
             }
+          .nav_item:hover {
+            text-decoration: underline;
+          }
         }
         .header_right {
             float: right;
@@ -307,6 +311,7 @@
                 height: 20px;
                 cursor: pointer;
             }
+
             span, b {
                 float: left;
                 margin-left: 10px;
@@ -325,6 +330,9 @@
                 line-height: 30px;
                 cursor: pointer;
             }
+            b:hover {
+              text-decoration: underline;
+            }
             .sign_btn {
                 width: 80px;
                 border: 2px solid @defaultColor;
@@ -335,6 +343,9 @@
                     background-color: @defaultColor;
                     color: #fff;
                 }
+            }
+            .sign_btn:hover {
+              text-decoration: underline;
             }
             .icon_cart, .icon_exit {
                 margin-left: 20px;
@@ -350,7 +361,7 @@
         position: fixed;
         right: 30px;
         bottom: 170px;
-        width: 80px; 
+        width: 80px;
         z-index: 100;
         transition: opacity .3s linear;
         &.disabled {
