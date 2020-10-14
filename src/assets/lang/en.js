@@ -15,7 +15,7 @@ export default  {
         about: 'About Us',
         course: 'Course Offerings',
         enhancement: 'Enhancement Opportunities',
-        services: 'Adminssion Services',
+        services: 'Admission Services',
         stories: 'Our Stories',
         contact: 'Contact Us',
         logoName: 'eEduWin',
@@ -43,7 +43,7 @@ export default  {
     },
     aboutTeam: {
         ourTeam: 'Our Team',
-        ourTeamDesc: 'A group of young andseasoned members who are passionate and dedicated with education experiencesand professional capabilities',
+        ourTeamDesc: 'A group of young and seasoned members who are passionate and dedicated with education experiences and professional capabilities',
         executiveTeamCaps: 'EXECUTIVE TEAM',
         ourInstructorsCaps: 'OUR INSTRUCTORS',
         executiveTeam: 'EXECUTIVE TEAM',
@@ -53,11 +53,11 @@ export default  {
         joinDesc: 'We are actively seeking committed individuals to join our team. Please see the following job openings and contact us if you are interested.',
         jobDescription: 'Job description',
         positionOne: 'Program Instructor',
-        positionOneDesc: 'We are looking for a seasoned and passionate ProgramInstructor who will assist in planning and preparation of eEduWin’s creativelearning opportunities, and establishment of valuable volunteer activities.',
+        positionOneDesc: 'We are looking for a seasoned and passionate Program Instructor who will assist in planning and preparation of eEduWin’s creative learning opportunities, and establishment of valuable volunteer activities.',
         positionTwo: 'Admissions Counselor',
-        positionTwoDesc: 'We are looking for an organized, engaging AdmissionsCounselor who will meet with students to assess their academic standing andextracurricular activities, inform them about colleges, programs, and majors,and connect them with resources that will help them get into their desireduniversities.',
+        positionTwoDesc: 'We are looking for an organized, engaging Admissions Counselor who will meet with students to assess their academic standing and extra curricular activities, inform them about colleges, programs, and majors,and connect them with resources that will help them get into their desired universities.',
         positionThree: 'Marketing Analyst',
-        positionThreeDesc: 'We are looking for a Marketing Analyst who will research andidentify ways to build our brand and outreach to new clients.',
+        positionThreeDesc: 'We are looking for a Marketing Analyst who will research and identify ways to build our brand and outreach to new clients.',
     },
     aboutUs: {
         aboutUs: 'About Us',
@@ -67,8 +67,8 @@ export default  {
         ourMission: 'OUR MISSION',
         ourMissionDesc: 'Our mission is to stimulate young minds through innovative learning methods and enriching activities. Through “Learning-By-Doing” and “Project-Based-Learning,”pedagogy, our emphasis is the application of knowledge.',
         ourAim: 'OUR AIM',
-        ourAimDesc: 'We aim to develop the creativity, innovation and entrepreneurialism of young learners while instilling a strong sense of teamwork.  We help students attain useful skills inareas of interest and increase not only their college readiness but preparation for future career as well.',
-        
+        ourAimDesc: 'We aim to develop the creativity, innovation and entrepreneurialism of young learners while instilling a strong sense of teamwork.  We help students attain useful skills in areas of interest and increase not only their college readiness but preparation for future career as well.',
+
         aDiverseTeam: 'A Diverse Team',
         members: 'With passionate members from Europe, Australia, China, Canada and the US.',
         seasonedEducators: 'Seasoned Educators',
@@ -80,18 +80,18 @@ export default  {
         devotedParents: 'Devoted Parents',
         devotedParentsDesc: 'With successful experiences in raising their children in the States',
         whoCommon: 'With One Thing in Common: A passion for the education and nurturing of young learners.',
-        
-        whyAdvocates: 'We are advocates for and participants in the “new tide” in education of young students that breaks from the traditional pedagogy textbook-based, memorization-focusedand test-driven learning',
+
+        whyAdvocates: 'We are advocates for and participants in the “new tide” in education of young students that breaks from the traditional pedagogy textbook-based, memorization-focused and test-driven learning',
         whyPrograms: 'Our programs are uniquely focused to cultivate young students’ creativity, innovation and entrepreneurial abilities',
         whyServices: 'eDeliveryof all our services and programs allows more customers to benefit from our stimulating and cutting-edge learning activities as well as take advantage of our high-quality services',
-        
+
         whatProfessional: 'Highly experienced educators and well-trained professionals from the US, Europe, Australia, Canada and China',
         whatUnderstanding: 'Thorough understanding of US education and other higher education systems through first-hand experiences',
         whatParticipated: 'Participated in teaching and researching experiences in the US and other regions',
         whatSuccessful: 'Successful parents who raised high-achieving children',
-        whatExperiences: 'Engaged with college admission guidance experiences, especially withthe US higher institutions',
+        whatExperiences: 'Engaged with college admission guidance experiences, especially with the US higher institutions',
         whatPassionate: 'Passionate about providing conscientious education services to students',
-        whatCombination: 'A combination of seasoned educators and young aspiring education practitioners representing our strengths in education expertise and experiencesas well as youthful energy and fresh ideas for eEduWin’s forward-looking mission',
+        whatCombination: 'A combination of seasoned educators and young aspiring education practitioners representing our strengths in education expertise and experiences as well as youthful energy and fresh ideas for eEduWin’s forward-looking mission',
     },
     contact: {
         contactUs: 'Contact Us',
@@ -190,15 +190,15 @@ export default  {
         inspiringCreativity: 'Inspiring creativity,',
         innovation: 'innovation and',
         entrepreneurship: 'entrepreneurship',
-        slogan: '"Inspiring and Cultivating the creativity,innovation and entrepreneurship of young people"',
+        slogan: '"Inspiring and Cultivating the creativity, innovation and entrepreneurship of young people"',
         seeCourse: 'OUR SERVICES',
         eEduWinNews: 'eEduWin News',
 
         mainServicesTitle: 'Our Main Services',
         collegePreparationGuidance: 'College Preparation Guidance',
-        collegePreparationGuidanceDesc: 'Support young students in their preparation for collegethrough counseling, planning and application guidance',
+        collegePreparationGuidanceDesc: 'Support young students in their preparation for college through counseling, planning and application guidance',
         enrichmentPrograms: 'Enrichment Programs',
-        enrichmentProgramsDesc: 'Providing enrichment programs that train students on creativity,innovation and entrepreneurship',
+        enrichmentProgramsDesc: 'Providing enrichment programs that train students on creativity, innovation and entrepreneurship',
         resourceProvider: 'Resource Provider',
         resourceProviderDesc: 'Serving as an online education resources platform where passionate educators interact with students',
 
@@ -213,11 +213,11 @@ export default  {
         newUser: 'New user',
         create: 'Create an account',
         rememberMe: 'Remember me',
-        forget: 'Forget Passwprd',
-        noAccountMatch: 'No accoung matching these credentials',
+        forget: 'Forget Password',
+        noAccountMatch: 'No account matching these credentials',
         signWith: 'Or Sign In With',
         reset: 'Reset Password',
-        getEmailCaptcha: 'get email capthca',
+        getEmailCaptcha: 'get email Capthca',
         emailCode: 'Email Code',
         submit: 'Submit',
         resend: 'Resend verification code',
@@ -240,14 +240,14 @@ export default  {
         goalsProvide: 'To provide high quality and reliable guidance and counselling for applicants in the application process',
         goalsDevelop: 'To develop students’ potential, intellectual curiosity, and passion for learning before entry to top university',
         goalsAssign: 'To assist applicants with achieving their goals of studying in top universities around the world, with a focus on prestigious US universities',
-    
+
         whyChooseUs: 'Why Choose Us',
         why1: 'We stand at the forefront of US education systems (K-12 and universities) as long time and current US educators, keeping abreast with US education trends and development through daily professional work',
         why2: 'Our information about US universities and education systems is accurate, insightful and comes from first-hand experience',
         why3: 'We have a stellar admission services record with top US university placements into Ivy league universities, and top 20 and 30 universities since 2001',
         why4: 'We have spent decades studying, living, and working in the US. Our broad US professional experience and profound understanding of American mainstream life are valuable in guiding Chinese students in their planning of study, career development and personal growth',
         why5: 'We are knowledgeable about the Chinese education system, and China’s culture, economic development, and trends, as well as opportunities and challenges faced by Chinese students and their families',
-    
+
         serviceContents: 'Service Contents',
         discover: 'Discover and learn about our 5 services areas',
         advise: 'Advise',
@@ -301,7 +301,7 @@ export default  {
         harvardChemistryAcademic: 'Academic: 9 AP courses and 9 US university courses',
         harvardChemistryActivities: 'Activities: Captain, Speech Team, Math Team, Founder of a community service team',
         harvardChemistryAchievements: 'Achievements: Participant in the prestigious RSI summer camp at MIT; Two summer research experience at a university science lab; Semifinalist of Siemens and Intel science competitions; Awards in math, writing, engineering, speech at state and national levels',
-    
+
         HarvardEconomyGovernment: 'Harvard - Economy and Government',
         HarvardEconomyGovernmentLeadership: 'Leadership and Activities: Notional Teen Advisor; Girl Up of United Nation(UN) Foundation; chair of Socal Coalition; Socal UN Association; Socal Youth Ambassador to 2014 National UNA Summit; Founder/chair of Congresswoman; Youth Advisory Board; News Editor for national newspaper;',
         HarvardEconomyGovernmentAchievements: 'Achievements: Drafted anti-human trafficking bill; Youth representative to global UN conferences;',
@@ -310,16 +310,16 @@ export default  {
         pennsylvaniaScienceAcademic: 'Academic: 4.0 (unweighted GPA); Ranked #1 in class of 600+; ACT = 35; ll AP courses; Academic Decathlon',
         pennsylvaniaScienceLeadership: 'Leadership: President of multiple school organizations such as math and science clubs;',
         pennsylvaniaScienceAchievements: 'Achievements: One summer science research experience at a university lab, Intel Science Competition',
-    
+
         cornellScience: 'Cornell - Science',
         cornellScienceAcademic: 'Academic: 3.9 GPA(unweighted), ranked 15 of class 800+; SAT = 2190, three SAT ll with average scope of 750; 12 AP courses and 3 college courses',
-        cornellScienceLeadership: 'Leadership: Leadership roles with multiple organizations on campus; Founder of Math team and a voluteer club',
-        cornellScienceArchievements: 'Archievements: Science research experience at a university lab; Awards in music, ballet, social services, and math',
+        cornellScienceLeadership: 'Leadership: Leadership roles with multiple organizations on campus; Founder of Math team and a volunteer club',
+        cornellScienceAchievements: 'Achievements: Science research experience at a university lab; Awards in music, ballet, social services, and math',
 
         UCBerkeley: 'UC Berkeley(Full Scholarship)',
         UCBerkeleyAcademic: 'Academic: GPA:3.61(unweighted); ACT = 35, perfect score on SAT ll Math and Physics; 12 AP courses and 4 college courses',
         UCBerkeleyLeadership: 'Activities: Captain, Math team, founder of a social club at school',
-        UCBerkeleyArchievements: 'Achievements: Math awards school and regional',
+        UCBerkeleyAchievements: 'Achievements: Math awards school and regional',
         UCBerkeleyGuided: 'Guided his application to focus on his outstanding motivation and exceptional efforts despite challenging personal situation',
 
         columbiaEconomics: 'Columbia - Economics',
@@ -327,7 +327,7 @@ export default  {
         columbiaEconomicsActivities: 'Leadership: Co-Editor in chief of school newspaper; Founder and President of the Art Club',
         columbiaEconomicsAchievements: 'Achievements: History research paper published in a national magazine; Third place at the annual national essay contest; First place at History Day Los Angeles, Third place in CA; First place in technical theater at the Drama Teachers Association of Southern California annual festival; Special art talent (winner of the national stamp design competition one year and the winning drawing was the special Christmas stamp for that year issued nationally); first place in LA Custume design one year',
 
-        andMore: 'And More', 
+        andMore: 'And More',
     },
     verify: {
         verifyEmailTitle: 'Verify your Email Address',
