@@ -128,7 +128,7 @@
             .our_stories {
                 .stories_desc {
                     font-size: 14px;
-                    text-indent: 2em;
+                    /*text-indent: 2em;*/
                 }
             }
         }
