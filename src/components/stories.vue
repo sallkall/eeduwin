@@ -128,7 +128,7 @@
             .our_stories {
                 .stories_desc {
                     font-size: 14px;
-                    text-indent: 2em;
+                    /*text-indent: 2em;*/
                 }
             }
         }
@@ -145,8 +145,8 @@
         .our_stories {
             padding: 20px 40px;
             box-sizing: border-box;
-            width: 640px;
-            height: 230px;
+            width: 690px;
+            height: auto;
             background-color: rgba(189, 212, 228, .8);
             .stories_title {
                 width: 100%;
@@ -157,8 +157,8 @@
                 font-weight: bold;
             }
             .stories_desc {
-                line-height: 28px;
-                font-size: 16px;
+                line-height: 25px;
+                font-size: 14px;
                 color: @defaultColor;
                 b {
                     font-size: 18px;
@@ -167,6 +167,7 @@
         }
         .stories_btns {
             margin-top: 20px;
+            margin-bottom: 80px;
             width: 640px;
             height: 50px;
             .stories_btn {

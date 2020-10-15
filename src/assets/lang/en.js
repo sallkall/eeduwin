@@ -18,9 +18,11 @@ export default  {
         services: 'Admission Services',
         stories: 'Our Stories',
         contact: 'Contact Us',
+        club: 'eEduWinner Club',
         logoName: 'eEduWin',
         ourVision: 'Our Vision',
         ourTeamJoinUs: 'Our Team/Join Us',
+        ourStories: 'Our Stories',
         welcome: 'Welcome',
         login: 'LOGIN',
         register: 'REGISTER',
@@ -284,6 +286,12 @@ export default  {
         communicate2: 'Assistance with communication with applied universities whenever necessary',
         communicate3: 'Close communication with applicants and parents',
         communicate4: 'Timely exchange of information and advice with clients',
+    },
+    club: {
+      eEduWinnerClub: 'eEduWinner Club',
+      overviewDesc: 'This is an exclusive service platform for the students who either have enrolled in any of eEduWin’s programs and courses or have been mentored through eEduWin’s college pathfinder program.\n' +
+        '\n' +
+        'Unique opportunities and nurturing guidance will be provided to invited members, which cover areas of academic enrichment, social commitment, innovation stimulation, competition involvement, interdisciplinary research and college preparation.'
     },
     stories: {
         ourStories: 'Our Stories',

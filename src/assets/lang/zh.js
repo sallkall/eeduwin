@@ -17,10 +17,12 @@ export default {
         enhancement: '课外拓展机会',
         services: '大学录取服务',
         stories: '我们的战绩',
+        club: '创赢俱乐部',
         contact: '联系我们',
         logoName: '创赢',
         ourVision: '我们的愿景',
         ourTeamJoinUs: '我们的团队/加入我们',
+        ourStories: '我们的故事',
         welcome: '欢迎',
         login: '登录',
         register: '注册',
@@ -282,6 +284,11 @@ export default {
         communicate2: '如需要，随时帮助和所申请院校进行沟通',
         communicate3: '密切联系申请人和父母',
         communicate4: '及时和委托人沟通信息和意见',
+    },
+    club: {
+      eEduWinnerClub: '创赢俱乐部',
+      overviewDesc: '创赢俱乐部是专为参加过eEduWin课程和课程或参加过 eEduWin College Pathfinder Program 的学生提供的服务平台。\n' +
+        '\n 我们将为被邀请的会员提供独特的机会和培养指导，内容包括学术充实、社会实践、创新视野、竞赛参与、跨学科研究和申学准备。'
     },
     stories: {
         ourStories: '我们的故事',

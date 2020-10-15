@@ -31,7 +31,7 @@
             <p class="services_common_title">{{$t('services.serviceContents')}}:</p>
             <p class="cont_tip">{{$t('services.discover')}}:</p>
             <div class="cont_tabs">
-                <span v-for="(tab, tabIdx) in tabList" class="cont_tab" 
+                <span v-for="(tab, tabIdx) in tabList" class="cont_tab"
                     :class="activeTabIdx === tabIdx ? 'active' : ''"
                     @click="selectTab(tabIdx)">{{tab}}</span>
             </div>
@@ -43,7 +43,7 @@
             </div>
         </div>
         <CommonFooter />
-            
+
     </div>
 </template>
 <script>
@@ -64,10 +64,10 @@
         computed: {
             tabList() {
                 return [
-                    this.$t('services.advise'), 
-                    this.$t('services.guidance'), 
-                    this.$t('services.enhance'), 
-                    this.$t('services.support'), 
+                    this.$t('services.advise'),
+                    this.$t('services.guidance'),
+                    this.$t('services.enhance'),
+                    this.$t('services.support'),
                     this.$t('services.communicate')
                 ];
             },
