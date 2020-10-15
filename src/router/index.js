@@ -11,7 +11,7 @@ let routeTitle = {
     detail: 'Course Offerings',
     enhancement: 'Enhancement Opportunities',
     services: 'Admission Services',
-    stories: 'Our Stories',
+    club: 'eEduWinner Club',
     home: 'eEduWin',
     'curd-news': '新闻管理',
     'curd-type': '类型管理',

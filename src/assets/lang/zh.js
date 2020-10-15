@@ -21,6 +21,7 @@ export default {
         logoName: '创赢',
         ourVision: '我们的愿景',
         ourTeamJoinUs: '我们的团队/加入我们',
+        ourStories: '我们的故事',
         welcome: '欢迎',
         login: '登录',
         register: '注册',

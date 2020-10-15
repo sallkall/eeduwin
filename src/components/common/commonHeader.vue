@@ -16,6 +16,7 @@
                 <div v-if="nav.route === 'about'" class="nav_about_wrap">
                     <p @click="toAboutPage('aboutUs')">{{$t("header.ourVision")}}</p>
                     <p @click="toAboutPage('aboutTeam')">{{$t("header.ourTeamJoinUs")}}</p>
+                    <p @click="toAboutPage('stories')">{{$t("header.ourStories")}}</p>
                 </div>
             </div>
         </div>
@@ -185,8 +186,8 @@
                         name: this.$t("header.services"),
                         route: 'services',
                     }, {
-                        name: this.$t("header.stories"),
-                        route: 'stories',
+                        name: this.$t("header.club"),
+                        route: 'club',
                     }, {
                         name: this.$t("header.contact"),
                         route: 'contact',
@@ -279,7 +280,7 @@
                     top: 30px;
                     padding: 5px 10px;
                     width: 160px;
-                    height: 60px;
+                    height: 85px;
                     background: #f0f0f0;
                     border-radius: 6px;
                     p {
