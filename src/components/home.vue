@@ -15,9 +15,10 @@
                         {{$t('home.seeCourse')}}
                         <div class="wrapper">
                             <div class="nav_about_wrap">
-                                <p @click="toAboutPage('aboutUs')">{{$t("header.ourVision")}}</p>
-                                <p @click="toAboutPage('aboutTeam')">{{$t("header.ourTeamJoinUs")}}</p>
-                                <p @click="toAboutPage('stories')">{{$t("header.ourStories")}}</p>
+                                <p @click="cliNav('course')">{{this.$t("header.course")}}</p>
+                                <p @click="cliNav('enhancement')">{{this.$t("header.enhancement")}}</p>
+                                <p @click="cliNav('services')">{{this.$t("header.services")}}</p>
+                                <p @click="cliNav('club')">{{this.$t("header.club")}}</p>
                             </div>
                         </div>
                        
@@ -146,6 +147,19 @@
                     let newsList = res.news ? res.news : [];
                     this.newsList = newsList;
                 });
+            },
+            cliNav(path) {//点击nav选项，跳转至相应页面
+                switch(path) {
+                    case 'contact':
+                        this.showContactModel();
+                        break;
+                    case 'about':
+                        break;
+                    default:
+                        this.$router.replace({
+                            path: `/${path}`
+                        });
+                }
             },
             initNotice(type = 1) {
                 //type,1 latest, 2 pre, 3 next
@@ -329,14 +343,10 @@
                     padding-top: 50px;
                 }
                 
-
                 .nav_about_wrap {
-                    // position: absolute;
-                    // left: 0px;
-                    // top: 50px;
                     padding: 5px 10px;
-                    width: 160px;
-                    height: 85px;
+                    width: 180px;
+                    height: 110px;
                     background: #f0f0f0;
                     border-radius: 6px;
                     p {
