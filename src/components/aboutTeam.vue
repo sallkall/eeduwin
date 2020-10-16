@@ -116,11 +116,6 @@
                         title: zh ? '课程总监' : 'Program Director',
                         other: zh ? ['布朗大学, 2021 届', '应⽤数学-经济专业'] : ['Brown University, Class of 2021', 'Applied Math – Economics'],
                     }, {
-                        img: 'team_img6.jpg',
-                        name: 'Hannah Zhao',
-                        title: zh ? '宣传总监' : 'Marketing Director',
-                        other: zh ? ['伦敦大学金匠学院', '2021届', '新闻与传播专业'] : ['Goldsmiths College, University of London', 'Class of 2021', 'Media and Communications'],
-                    }, {
                         img: 'team_img1.jpg',
                         name: 'Hanpu Wei',
                         title: zh ? '技术总监' : 'Technology Director',

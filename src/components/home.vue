@@ -345,7 +345,7 @@
                 
                 .nav_about_wrap {
                     padding: 5px 10px;
-                    width: 180px;
+                    width: 200px;
                     height: 110px;
                     background: #f0f0f0;
                     border-radius: 6px;
