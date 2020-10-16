@@ -11,7 +11,17 @@
                     <p class="home_slogon">
                         {{$t('home.slogan')}}
                     </p>
-                    <p class="middle_btn" @click="toCourse">{{$t('home.seeCourse')}}</p>
+                    <div class="middle_btn" >
+                        {{$t('home.seeCourse')}}
+                        <div class="wrapper">
+                            <div class="nav_about_wrap">
+                                <p @click="toAboutPage('aboutUs')">{{$t("header.ourVision")}}</p>
+                                <p @click="toAboutPage('aboutTeam')">{{$t("header.ourTeamJoinUs")}}</p>
+                                <p @click="toAboutPage('stories')">{{$t("header.ourStories")}}</p>
+                            </div>
+                        </div>
+                       
+                    </div>
                 </div>
                 <!-- <div class="home_right" @click="showContactModel">Contact Us ></div> -->
             </div>
@@ -191,6 +201,7 @@
 </script>
 <style lang="less" scoped>
     @borderColor: #25315E;
+    @defaultColor: #303461;
     .zh {
         .home_top {
             .home_top_wrap {
@@ -291,10 +302,55 @@
                     transition-property: box-shadow;
                     -webkit-tap-highlight-color: transparent;
                     transform: translateZ(0);
+                    padding-right: 10px;
+                    &:after {
+                        position: absolute;
+                        right: 15px;
+                        top: 18px;
+                        display: block;
+                        content: '';
+                        border: 4px solid transparent;
+                        border-top-color: @defaultColor;
+                    }
                 }
                 .middle_btn:hover {
                     box-shadow: inset 0 0 0 1px #666, 0 0 1px transparent;
                 }
+
+                .middle_btn:hover  .wrapper{
+                    display: block;
+                }
+
+                .wrapper {
+                    display: none;
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    padding-top: 50px;
+                }
+                
+
+                .nav_about_wrap {
+                    // position: absolute;
+                    // left: 0px;
+                    // top: 50px;
+                    padding: 5px 10px;
+                    width: 160px;
+                    height: 85px;
+                    background: #f0f0f0;
+                    border-radius: 6px;
+                    p {
+                        font-size: 12px;
+                        color: #2F2F2F;
+                        line-height: 25px;
+                        font-weight: normal;
+                        cursor: pointer;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                
             }
         }
         .home_right {

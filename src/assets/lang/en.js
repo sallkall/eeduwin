@@ -252,11 +252,11 @@ export default  {
 
         serviceContents: 'Service Contents',
         discover: 'Discover and learn about our 5 services areas',
-        advise: 'Advise',
+        advise: 'Advisory',
         guidance: 'Guidance',
-        enhance: 'Enhance',
+        enhance: 'Enrichment',
         support: 'Support',
-        communicate: 'Communicate',
+        communicate: 'Communication',
 
         advise1: 'Advise on academic and personal quality development',
         advise2: 'Advise on courses selections and enrichment activity involvement',
