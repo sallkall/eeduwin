@@ -9,7 +9,7 @@
             <span>{{zh ? detail.activityNmZh : detail.activityNmEn}}</span>
         </div>
 
-        <div class="detail_wrap app_content" 
+        <div class="detail_wrap app_content"
             :class="{'competition': pageType == 0}">
 	        <p class="detail_title">{{zh ? detail.activityNmZh : detail.activityNmEn}}</p>
 
@@ -29,7 +29,7 @@
         	<div v-if="pageType == 0" class="guidance_wrap clearfix">
         		<p class="guidance_left">{{$t('enhaDetail.submissionGuidance')}}:</p>
         		<ul class="guidance_right clearfix">
-        			<li v-for="(guid, guidIdx) in (zh ? detail.guidanceCn : detail.guidanceEn)" 
+        			<li v-for="(guid, guidIdx) in (zh ? detail.guidanceCn : detail.guidanceEn)"
                         :key="guidIdx">{{`${guidIdx + 1}) ${guid}`}}</li>
         		</ul>
         	</div>
@@ -50,9 +50,10 @@
             </div>
 
         </div>
-        <div v-if="pageType == 0" class="detail_price_wrap">
+        <div  class="detail_price_wrap">
             <p class="price_title">PRIZE:</p>
             <p class="price_list" v-for="(prize, prizeIdx) in (zh ? detail.prizeCn : detail.prizeEn)">{{prize}}</p>
+           <img src="../assets/images/enha_bg_icon.png" />
         </div>
         <CommonFooter />
 	</div>
@@ -134,7 +135,7 @@
         },
         components: {
             CommonHeader,
-            CommonFooter, 
+            CommonFooter,
         },
         computed: {
             zh() {
@@ -146,6 +147,7 @@
 <style lang="less" scoped>
     @defaultColor: #303461;
     @defaultWidth: 1000px;
+    @defaultHeight: 600px;
     .breadcrumb {
         margin: 0 auto;
         width: @defaultWidth;
@@ -206,7 +208,7 @@
 	    			margin-right: 10px;
                     background: #d8e6f1 url('../assets/images/icon_calendar.png') no-repeat 290px center;
                     background-size: 40px 40px;
-	    		} 
+	    		}
                 &.right {
                     background: #d8e6f1 url('../assets/images/icon_cap.png') no-repeat 280px center;
                     background-size: 44px 36px;
@@ -273,16 +275,25 @@
             }
         }
         &.volunteer {
-            
+
         }
     }
+
     .detail_price_wrap {
         margin-top: 30px;
         padding-top: 40px;
         width: 100%;
         height: 300px;
-        background: #a8d0e6 url('../assets/images/enha_bg_icon.png') no-repeat 800px 10px;
         background-size: 220px 300px;
+        position: relative;
+        flex-shrink: 0;
+        img {
+          position: absolute;
+          margin-left: 1200px;
+          bottom: 0;
+          width: auto;
+          height: 260px;
+        }
         .price_title {
             margin-bottom: 30px;
             width: 390px;
