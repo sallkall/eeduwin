@@ -11,7 +11,18 @@
                     <p class="home_slogon">
                         {{$t('home.slogan')}}
                     </p>
-                    <p class="middle_btn" @click="toCourse">{{$t('home.seeCourse')}}</p>
+                    <div class="middle_btn" >
+                        {{$t('home.seeCourse')}}
+                        <div class="wrapper">
+                            <div class="nav_about_wrap">
+                                <p @click="cliNav('course')">{{this.$t("header.course")}}</p>
+                                <p @click="cliNav('enhancement')">{{this.$t("header.enhancement")}}</p>
+                                <p @click="cliNav('services')">{{this.$t("header.services")}}</p>
+                                <p @click="cliNav('club')">{{this.$t("header.club")}}</p>
+                            </div>
+                        </div>
+                       
+                    </div>
                 </div>
                 <!-- <div class="home_right" @click="showContactModel">Contact Us ></div> -->
             </div>
@@ -137,6 +148,19 @@
                     this.newsList = newsList;
                 });
             },
+            cliNav(path) {//点击nav选项，跳转至相应页面
+                switch(path) {
+                    case 'contact':
+                        this.showContactModel();
+                        break;
+                    case 'about':
+                        break;
+                    default:
+                        this.$router.replace({
+                            path: `/${path}`
+                        });
+                }
+            },
             initNotice(type = 1) {
                 //type,1 latest, 2 pre, 3 next
                 let url = type == 1 ? 'notice/latest' : (type == 2 ? 'notice/pre' : 'notice/next');
@@ -191,6 +215,7 @@
 </script>
 <style lang="less" scoped>
     @borderColor: #25315E;
+    @defaultColor: #303461;
     .zh {
         .home_top {
             .home_top_wrap {
@@ -291,10 +316,51 @@
                     transition-property: box-shadow;
                     -webkit-tap-highlight-color: transparent;
                     transform: translateZ(0);
+                    padding-right: 10px;
+                    &:after {
+                        position: absolute;
+                        right: 15px;
+                        top: 18px;
+                        display: block;
+                        content: '';
+                        border: 4px solid transparent;
+                        border-top-color: @defaultColor;
+                    }
                 }
                 .middle_btn:hover {
                     box-shadow: inset 0 0 0 1px #666, 0 0 1px transparent;
                 }
+
+                .middle_btn:hover  .wrapper{
+                    display: block;
+                }
+
+                .wrapper {
+                    display: none;
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    padding-top: 50px;
+                }
+                
+                .nav_about_wrap {
+                    padding: 5px 10px;
+                    width: 200px;
+                    height: 110px;
+                    background: #f0f0f0;
+                    border-radius: 6px;
+                    p {
+                        font-size: 12px;
+                        color: #2F2F2F;
+                        line-height: 25px;
+                        font-weight: normal;
+                        cursor: pointer;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                
             }
         }
         .home_right {

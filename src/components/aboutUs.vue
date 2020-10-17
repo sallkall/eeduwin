@@ -59,8 +59,10 @@
         <p class="about_li">{{$t('aboutUs.whatParticipated')}}</p>
         <p class="about_li">{{$t('aboutUs.whatSuccessful')}}</p>
         <p class="about_li">{{$t('aboutUs.whatExperiences')}}</p>
-        <p class="about_li" v-if="$i18n.locale=='en'">{{$t('aboutUs.whatPassionate')}}</p>
-        <p class="about_li" v-if="$i18n.locale=='en'">{{$t('aboutUs.whatCombination')}}</p>
+        <p class="about_li">{{$t('aboutUs.whatPassionate')}}</p>
+        <p class="about_li">{{$t('aboutUs.whatCombination')}}</p>
+        <!-- <p class="about_li" v-if="$i18n.locale=='en'">{{$t('aboutUs.whatPassionate')}}</p> -->
+        <!-- <p class="about_li" v-if="$i18n.locale=='en'">{{$t('aboutUs.whatCombination')}}</p> -->
       </div>
       <Pagination :refList="refList" :idx="3" @toposition="toPositionByRef" />
     </div>

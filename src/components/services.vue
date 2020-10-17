@@ -9,7 +9,7 @@
         </div>
 
         <div class="goals_wrap">
-            <img class="left" src="../assets/images/services_global_bg.png" />
+            <img class="left" src="../assets/images/services_goal.png" />
             <div class="right">
                 <p class="services_common_title">{{$t('services.ourGoals')}}:</p>
                 <p class="services_common_li">{{$t('services.goalsProvide')}}</p>

@@ -317,7 +317,7 @@
 				margin-right: 30px;
 				margin-bottom: 20px;
 				width: 220px;
-				height: 202px;
+				height: 200px;
 				border-radius: 4px;
 				cursor: pointer;
         transition: box-shadow .3s;
