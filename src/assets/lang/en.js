@@ -57,7 +57,7 @@ export default  {
         positionOne: 'Program Instructor',
         positionOneDesc: 'We are looking for a seasoned and passionate Program Instructor who will assist in planning and preparation of eEduWin’s creative learning opportunities, and establishment of valuable volunteer activities.',
         positionTwo: 'Admissions Counselor',
-        positionTwoDesc: 'We are looking for an organized, engaging Admissions Counselor who will meet with students to assess their academic standing and extra curricular activities, inform them about colleges, programs, and majors,and connect them with resources that will help them get into their desired universities.',
+        positionTwoDesc: 'We are looking for an organized, engaging Admissions Counselor who will meet with students to assess their academic standing and extra curricular activities, inform them about colleges, programs, and majors, and connect them with resources that will help them get into their desired universities.',
         positionThree: 'Marketing Analyst',
         positionThreeDesc: 'We are looking for a Marketing Analyst who will research and identify ways to build our brand and outreach to new clients.',
     },
@@ -67,7 +67,7 @@ export default  {
         why: 'Why eEduWin',
         what: 'What are our team advantages',
         ourMission: 'OUR MISSION',
-        ourMissionDesc: 'Our mission is to stimulate young minds through innovative learning methods and enriching activities. Through “Learning-By-Doing” and “Project-Based-Learning,”pedagogy, our emphasis is the application of knowledge.',
+        ourMissionDesc: 'Our mission is to stimulate young minds through innovative learning methods and enriching activities. Through “Learning-By-Doing” and “Project-Based-Learning”, pedagogy, our emphasis is the application of knowledge.',
         ourAim: 'OUR AIM',
         ourAimDesc: 'We aim to develop the creativity, innovation and entrepreneurialism of young learners while instilling a strong sense of teamwork.  We help students attain useful skills in areas of interest and increase not only their college readiness but preparation for future career as well.',
 
@@ -192,7 +192,7 @@ export default  {
         inspiringCreativity: 'Inspiring creativity,',
         innovation: 'innovation and',
         entrepreneurship: 'entrepreneurship',
-        slogan: '"Inspiring and Cultivating the creativity, innovation and entrepreneurship of young people"',
+        slogan: '"Inspiring and cultivating the creativity, innovation and entrepreneurship of young people"',
         seeCourse: 'OUR SERVICES',
         eEduWinNews: 'eEduWin News',
 
