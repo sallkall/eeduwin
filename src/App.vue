@@ -27,7 +27,7 @@
         width: 100%;
         min-width: 1300px;
         min-height: 100%;
-        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        font-family: 'Open Sans', sans-serif, 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: #2c3e50;
