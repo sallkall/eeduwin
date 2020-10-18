@@ -67,9 +67,9 @@ export default  {
         why: 'Why eEduWin',
         what: 'What are our team advantages',
         ourMission: 'OUR MISSION',
-        ourMissionDesc: 'Our mission is to stimulate young minds through innovative learning methods and enriching activities. Through “Learning-By-Doing” and “Project-Based-Learning,” pedagogy, our emphasis is the application of knowledge.',
+        ourMissionDesc: 'We nurture young minds to achieve their potential through innovative learning and extracurricular enrichment. Through “Learning-By-Doing” and “Project-Based-Learning” pedagogy, we emphasize the application of knowledge.',
         ourAim: 'OUR AIM',
-        ourAimDesc: 'We aim to develop the creativity, innovation and entrepreneurialism of young learners while instilling a strong sense of teamwork.  We help students attain useful skills in areas of interest and increase not only their college readiness but preparation for future career as well.',
+        ourAimDesc: 'We develop the creativity, innovation and entrepreneurialism of young learners while instilling a sense of team.  We help students attain critical skills in areas of interest, increasing  college readiness and preparation for future career as well.',
 
         aDiverseTeam: 'A Dynamic Team',
         members: 'With passionate members from Europe, Australia, China, Canada and the US.',
@@ -125,11 +125,11 @@ export default  {
         academic: 'ACADEMIC PUBLICATIONS',
 
         foundationCourses: 'Foundation Courses',
-        foundationCoursesDesc: 'fundamental courses to develop broad knowledge base and comprehensive skill set ',
+        foundationCoursesDesc: 'Fundamental courses to develop broad knowledge base and comprehensive skill set ',
         capstoneCourses: 'Capstone Courses',
-        capstoneCoursesDesc: 'multifaceted courses to provide exercises of integrating theory and knowledge into potential solutions to real-world problems',
+        capstoneCoursesDesc: 'Multifaceted courses to provide exercises of integrating theory and knowledge into potential solutions to real-world problems',
         enrichmentCourses: 'Enrichment Courses',
-        enrichmentCoursesDesc: 'enlightening courses taught and led by current university professors and industry experts to bring exceptional learning experience and unique perspectives',
+        enrichmentCoursesDesc: 'Enlightening courses taught and led by current university professors and industry experts to bring exceptional learning experience and unique perspectives',
         seeCourses: 'SEE COURSES',
 
         math: 'Math',
@@ -251,7 +251,7 @@ export default  {
         why5: 'We are knowledgeable about the Chinese education system, and China’s culture, economic development, and trends, as well as opportunities and challenges faced by Chinese students and their families',
 
         serviceContents: 'Service Contents',
-        discover: 'Discover and learn about our 5 services areas',
+        discover: 'Discover and learn about our five services areas',
         advise: 'Advisory',
         guidance: 'Guidance',
         enhance: 'Enrichment',
