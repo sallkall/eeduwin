@@ -67,7 +67,7 @@ export default  {
         why: 'Why eEduWin',
         what: 'What are our team advantages',
         ourMission: 'OUR MISSION',
-        ourMissionDesc: 'Our mission is to stimulate young minds through innovative learning methods and enriching activities. Through “Learning-By-Doing” and “Project-Based-Learning”, pedagogy, our emphasis is the application of knowledge.',
+        ourMissionDesc: 'Our mission is to stimulate young minds through innovative learning methods and enriching activities. Through “Learning-By-Doing” and “Project-Based-Learning,” pedagogy, our emphasis is the application of knowledge.',
         ourAim: 'OUR AIM',
         ourAimDesc: 'We aim to develop the creativity, innovation and entrepreneurialism of young learners while instilling a strong sense of teamwork.  We help students attain useful skills in areas of interest and increase not only their college readiness but preparation for future career as well.',
 
