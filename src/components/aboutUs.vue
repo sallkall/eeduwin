@@ -4,9 +4,9 @@
     <div class="about_top clearfix" ref="about">
       <div class="about_top_left" :style="{top: aboutTop + 'px'}">
         <p class="about_top_title">1.{{$t('aboutUs.aboutUs')}} <span></span> </p>
-        <p class="about_top_title_desc" @click="toPositionByRef('who')">2.{{$t('aboutUs.who')}}?</p>
-        <p class="about_top_title_desc" @click="toPositionByRef('why')">3.{{$t('aboutUs.why')}}?</p>
-        <p class="about_top_title_desc" @click="toPositionByRef('what')">4.{{$t('aboutUs.what')}}?</p>
+        <p class="about_top_title_desc" @click="toPositionByRef('who')">+ {{$t('aboutUs.who')}}?</p>
+        <p class="about_top_title_desc" @click="toPositionByRef('why')">+ {{$t('aboutUs.why')}}?</p>
+        <p class="about_top_title_desc" @click="toPositionByRef('what')">+ {{$t('aboutUs.what')}}?</p>
       </div>
       <div class="about_top_right">
         <div class="clearfix" ref="mission">
@@ -14,7 +14,7 @@
           <p class="about_top_title_desc" :class="activeTabIdx === 0 ? 'active' : ''">{{$t('aboutUs.ourMissionDesc')}}</p>
         </div>
         <div class="about_aim clearfix" ref="ouraim">
-          <p class="about_top_title_middle" :class="activeTabIdx === 1 ? 'active' : ''" @click="toPosition('ouraim', 1)">1.1 {{$t('aboutUs.ourAim')}}:</p>
+          <p class="about_top_title_middle" :class="activeTabIdx === 1 ? 'active' : ''" @click="toPosition('ouraim', 1)">1.2 {{$t('aboutUs.ourAim')}}:</p>
           <p class="about_top_title_desc" :class="activeTabIdx === 1 ? 'active' : ''">{{$t('aboutUs.ourAimDesc')}}</p>
         </div>
       </div>

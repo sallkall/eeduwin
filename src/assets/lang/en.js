@@ -71,7 +71,7 @@ export default  {
         ourAim: 'OUR AIM',
         ourAimDesc: 'We aim to develop the creativity, innovation and entrepreneurialism of young learners while instilling a strong sense of teamwork.  We help students attain useful skills in areas of interest and increase not only their college readiness but preparation for future career as well.',
 
-        aDiverseTeam: 'A Diverse Team',
+        aDiverseTeam: 'A Dynamic Team',
         members: 'With passionate members from Europe, Australia, China, Canada and the US.',
         seasonedEducators: 'Seasoned Educators',
         seasonedEducatorsDesc: 'With experiences ranging from K-12 to universities in the US',
