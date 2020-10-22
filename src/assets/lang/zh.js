@@ -71,7 +71,7 @@ export default {
         ourAim: '我们的目标',
         ourAimDesc: '创赢以培养年轻学者“三创”（即创造、创新、创业）为教育之本，并同时灌输团队精神。我们帮助学生在其感兴趣的领域拥有一技之长，这不仅是为他们的大学申请准备，更是为未来的职业生涯打下坚实基础。',
 
-        aDiverseTeam: '多元化团队',
+        aDiverseTeam: '多元化和蓬勃生机的团队',
         members: '我们的成员来自欧洲、澳大利亚、中国、加拿大和美国。',
         seasonedEducators: '经验丰富的导师',
         seasonedEducatorsDesc: 'With experiences ranging from K-12 to universities in the US',

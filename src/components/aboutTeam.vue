@@ -93,7 +93,7 @@
                     {
                         img: 'team_img3.jpg',
                         name: 'Ying Cao',
-                        title: zh ? '创始人' : 'Founder',
+                        title: zh ? '创办人' : 'Founder',
                         other: zh ? ['37年中美高校经验', '工作领域：录取，职业规划，', '国际交流和总裁培训'] : ['Seasoned Educator', 'Field: Admissions, Career Development', 'and International Communications'],
                     }, {
                         img: 'team_img7.jpg',

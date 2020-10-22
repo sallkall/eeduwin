@@ -49,7 +49,7 @@
     .club_title {
       height: 70px;
       line-height: 70px;
-      font-size: 40px;
+      font-size: 30px;
       font-weight: bold;
     }
     span {
@@ -62,7 +62,6 @@
       width: 1030px;
       height: 230px;
       line-height: 25px;
-      font-weight: 100;
       font-size: 18px;
       color: @defaultColor;
       text-align: left;
