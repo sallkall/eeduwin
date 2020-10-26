@@ -13,8 +13,10 @@
                 @click="selectTab(tabIdx)">{{tab}}</span>
         </div>
 
-        <p class="team_list_title">{{activeTabIdx ? $t('aboutTeam.ourInstructors') : $t('aboutTeam.executiveTeam')}}</p>
-        <ul class="team_list clearfix" >
+<!--        <p class="team_list_title">{{activeTabIdx ? $t('aboutTeam.ourInstructors') : $t('aboutTeam.executiveTeam')}}</p>-->
+      <p class="team_list_title">{{activeTabIdx ? $t('aboutTeam.ourInstructors') : $t('')}}</p>
+
+              <ul class="team_list clearfix" >
             <li class="team_li" v-for="(list, listIdx) in teamList">
                 <img :src="require(`../assets/images/${list.img}`)" />
                 <p class="team_li_name">{{list.name}}</p>
@@ -79,7 +81,7 @@
         computed: {
             teamList() {
                 let activeTabIdx = this.activeTabIdx;
-                return activeTabIdx ? this.instructorList : this.directorList ;
+                return activeTabIdx ? this.instructorList : null ;
             },
             tabList() {
                 return [
@@ -87,42 +89,42 @@
                     this.$t('aboutTeam.ourInstructorsCaps'),
                 ]
             },
-            directorList() { //行政团队
-                let zh = this.$i18n.locale === 'zh';
-                return [
-                    {
-                        img: 'team_img3.jpg',
-                        name: 'Ying Cao',
-                        title: zh ? '创办人' : 'Founder',
-                        other: zh ? ['37年中美高校经验', '工作领域：录取，职业规划，', '国际交流和总裁培训'] : ['Seasoned Educator', 'Field: Admissions, Career Development', 'and International Communications'],
-                    }, {
-                        img: 'team_img7.jpg',
-                        name: 'Sophia Li',
-                        title: zh ? '首席执行官兼申学总监' : 'CEO & Admissions Director',
-                        other: zh ? ['布朗大学, 2021 届', '应⽤数学-经济以及', '计算机科学双专业'] : ['Brown University, Class of 2021', 'Applied Math - Economics', '& Computer Science'],
-                    }, {
-                        img: 'team_img2.jpg',
-                        name: 'Amy Xu',
-                        title: zh ? '首席运营官' :'Chief Operating Officer',
-                        other: zh ? ['南加州大学，2019届', '建筑设计专业'] : ['University of Southern California', 'Class of 2019', 'Architecture'],
-                    }, {
-                        img: 'team_img4.jpg',
-                        name: 'Sally Kang',
-                        title: zh ? '信息总监' : 'Information Director',
-                        other: zh ? ['多伦多大学（圣乔治）, 2021届', '认知科学, 计算机科学', '以及经济专业'] : ['University of Toronto (St. George)', 'Class of 2021', 'Cognitive Science, Computer Science', '& Economics'],
-                    }, {
-                        img: 'team_img5.jpg',
-                        name: 'Neil Chen',
-                        title: zh ? '课程总监' : 'Program Director',
-                        other: zh ? ['布朗大学, 2021 届', '应⽤数学-经济专业'] : ['Brown University, Class of 2021', 'Applied Math – Economics'],
-                    }, {
-                        img: 'team_img1.jpg',
-                        name: 'Hanpu Wei',
-                        title: zh ? '技术总监' : 'Technology Director',
-                        other: zh ? ['南加州大学，2020 届', '字节跳动', '计算机科学研究生'] : ['University of Southern California', 'Class of 2020', 'Computer Science, Master'],
-                    }
-                ]
-            },
+            // directorList() { //行政团队
+            //     let zh = this.$i18n.locale === 'zh';
+            //     return [
+            //         {
+            //             img: 'team_img3.jpg',
+            //             name: 'Ying Cao',
+            //             title: zh ? '创办人' : 'Founder',
+            //             other: zh ? ['37年中美高校经验', '工作领域：录取，职业规划，', '国际交流和总裁培训'] : ['Seasoned Educator', 'Field: Admissions, Career Development', 'and International Communications'],
+            //         }, {
+            //             img: 'team_img7.jpg',
+            //             name: 'Sophia Li',
+            //             title: zh ? '首席执行官兼申学总监' : 'CEO & Admissions Director',
+            //             other: zh ? ['布朗大学, 2021 届', '应⽤数学-经济以及', '计算机科学双专业'] : ['Brown University, Class of 2021', 'Applied Math - Economics', '& Computer Science'],
+            //         }, {
+            //             img: 'team_img2.jpg',
+            //             name: 'Amy Xu',
+            //             title: zh ? '首席运营官' :'Chief Operating Officer',
+            //             other: zh ? ['南加州大学，2019届', '建筑设计专业'] : ['University of Southern California', 'Class of 2019', 'Architecture'],
+            //         }, {
+            //             img: 'team_img4.jpg',
+            //             name: 'Sally Kang',
+            //             title: zh ? '信息总监' : 'Information Director',
+            //             other: zh ? ['多伦多大学（圣乔治）, 2021届', '认知科学, 计算机科学', '以及经济专业'] : ['University of Toronto (St. George)', 'Class of 2021', 'Cognitive Science, Computer Science', '& Economics'],
+            //         }, {
+            //             img: 'team_img5.jpg',
+            //             name: 'Neil Chen',
+            //             title: zh ? '课程总监' : 'Program Director',
+            //             other: zh ? ['布朗大学, 2021 届', '应⽤数学-经济专业'] : ['Brown University, Class of 2021', 'Applied Math – Economics'],
+            //         }, {
+            //             img: 'team_img1.jpg',
+            //             name: 'Hanpu Wei',
+            //             title: zh ? '技术总监' : 'Technology Director',
+            //             other: zh ? ['南加州大学，2020 届', '字节跳动', '计算机科学研究生'] : ['University of Southern California', 'Class of 2020', 'Computer Science, Master'],
+            //         }
+            //     ]
+            // },
             instructorList() {//导师团队
                 let zh = this.$i18n.locale === 'zh';
                 return [
@@ -292,6 +294,7 @@
         }
     }
     .team_join_title {
+        margin-top: 100px;
         width: 100%;
         height: 90px;
         line-height: 90px;

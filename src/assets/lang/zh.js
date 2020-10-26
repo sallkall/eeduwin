@@ -46,7 +46,7 @@ export default {
     aboutTeam: {
         ourTeam: '我们的团队',
         ourTeamDesc: '我们是一群充满激情、才华横溢、经验丰富、具有国际背景和专业能力的年轻人',
-        executiveTeamCaps: '行政团队',
+        executiveTeamCaps: '我们的团队',
         ourInstructorsCaps: '导师团队',
         executiveTeam: '行政团队',
         ourInstructors: '导师团队',

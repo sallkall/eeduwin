@@ -46,7 +46,7 @@ export default  {
     aboutTeam: {
         ourTeam: 'Our Team',
         ourTeamDesc: 'A group of young and seasoned members who are passionate and dedicated with education experiences and professional capabilities',
-        executiveTeamCaps: 'EXECUTIVE TEAM',
+        executiveTeamCaps: 'TEAM',
         ourInstructorsCaps: 'OUR INSTRUCTORS',
         executiveTeam: 'EXECUTIVE TEAM',
         ourInstructors: 'OUR INSTRUCTORS',
